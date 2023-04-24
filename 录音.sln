@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "录音", "录音\录音.vcxproj", "{9647D3A4-6347-489E-9A14-BBE7C5274168}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9647D3A4-6347-489E-9A14-BBE7C5274168}.Debug|x64.ActiveCfg = Debug|x64
+		{9647D3A4-6347-489E-9A14-BBE7C5274168}.Debug|x64.Build.0 = Debug|x64
+		{9647D3A4-6347-489E-9A14-BBE7C5274168}.Debug|x86.ActiveCfg = Debug|Win32
+		{9647D3A4-6347-489E-9A14-BBE7C5274168}.Debug|x86.Build.0 = Debug|Win32
+		{9647D3A4-6347-489E-9A14-BBE7C5274168}.Release|x64.ActiveCfg = Release|x64
+		{9647D3A4-6347-489E-9A14-BBE7C5274168}.Release|x64.Build.0 = Release|x64
+		{9647D3A4-6347-489E-9A14-BBE7C5274168}.Release|x86.ActiveCfg = Release|Win32
+		{9647D3A4-6347-489E-9A14-BBE7C5274168}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C879263-847C-4F39-86C3-EE5749D15537}
+	EndGlobalSection
+EndGlobal
