@@ -2,7 +2,8 @@
 
 int main()
 {
-	HRecord r = HRecord();
+	// 录制
+	/**HRecord r = HRecord();
 	std::cout << "Init Record";
 	r.InitFile("Export.sound");
 	std::cout << "\nInit Record Save File";
@@ -15,4 +16,24 @@ int main()
 	}
 	r.CloseFile();
 	r.~HRecord();
+	**/
+
+	// 播放
+	/*HPlay p = HPlay();
+	p.InitFile("Export.sound");
+	while (p.HaveLoop())
+	{
+		p.Play(p.ReadFile());
+		p.ReadFileEnd();
+	}
+	p.CloseFile();
+	p.~HPlay();*/
+
+	// 边录制边播放
+	HRecord r;
+	HPlay p;
+	while (true)
+	{
+		p.Play((LPSTR)r.Record(10, 1024), r.recordSize());
+	}
 }

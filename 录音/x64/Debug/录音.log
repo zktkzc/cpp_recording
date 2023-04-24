@@ -1,3 +1,4 @@
 ﻿  main.cpp
 E:\Project\C\C++\录音\录音\SoundAPI.h(41,1): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+E:\Project\C\C++\录音\录音\SoundAPI.h(164,1): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
   录音.vcxproj -> E:\Project\C\C++\录音\x64\Debug\录音.exe
